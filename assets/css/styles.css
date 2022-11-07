@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body {
+	font-family: 'Roboto', sans-serif;}
+
+.card-img-top {
+	height: 150px;
+	object-fit: cover;
+}
+
+.font {
+	font-family: 'Righteous';
+}
+
+.form-control-dark {
+    color: #fff;
+    background-color: var(--bs-dark);
+    border-color: var(--bs-gray);
+}
+
+.form-control-dark:focus {
+    color: #fff;
+    background-color: var(--bs-dark);
+    border-color: #fff;
+    box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 25%);
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.categoria {
+    transition: transform 0.2s;
+}
+.categoria:hover{
+    transform: translateX(5px);
+    font-weight: bold;
+}
